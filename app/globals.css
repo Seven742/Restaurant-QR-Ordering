@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* system-ui + Khmer fallbacks so Khmer text renders on any device */
+body {
+  @apply bg-neutral-50 text-neutral-900 antialiased;
+  font-family: system-ui, -apple-system, 'Segoe UI', 'Noto Sans Khmer', 'Khmer OS', sans-serif;
+}
